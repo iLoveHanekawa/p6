@@ -1,5 +1,4 @@
 import logo from "../images/ananyaLogo.png";
-import "../index.css";
 import flower from "../images/flower.png";
 
 export default function Navbar() {

@@ -26,10 +26,85 @@ body {
 }
 
 .grid {
-    width: 766px;
+    width: 750px;
     align-self: center;
 }
 
 .psycho {
     margin-left: 20px;
+}
+
+.img10 {
+    width: 200px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.faStar {
+    color: red;
+    align-self: center;
+    margin-right: 4px;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    width: 200px;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.greyText {
+    color: grey;
+}
+
+.colorTheme {
+    top: 10px;
+    left: 5px;
+    /* position: absolute; */
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    width: 70px;
+    font-weight: bold;
+    /* color: purple; */
+    background-color: white;
+}
+
+.contactFlex {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px grey;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.tanjiroImg {
+    border-radius: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.phoneFlex {
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    align-items: center;
+}
+
+.appFlex {
+    display: flex;
+    flex-direction: row;
+    overflow:auto;
+    padding: 7px;
 }
